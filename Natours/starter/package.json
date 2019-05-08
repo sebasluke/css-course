@@ -1,0 +1,16 @@
+{
+	"name": "natourstarter",
+	"version": "1.0.0",
+	"description": "Yo dude, learning Sass, thats it.",
+	"main": "synt.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"compile:sass": "node-sass sass/main.scss css/style.css -w"
+	},
+	"author": "Programming Dude",
+	"license": "ISC",
+	"devDependencies": {
+		"node-sass": "^4.12.0"
+	},
+	"dependencies": {}
+}
